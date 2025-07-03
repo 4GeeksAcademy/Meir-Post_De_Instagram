@@ -1,4 +1,4 @@
-/** {
+/* * {
     border: 1px;
     border-color: brown;
     border-style: dotted;
@@ -58,6 +58,10 @@ body {
     width: 80px;
 }
 
+.user-options span {
+    font-size: 50px
+}
+
 .post-img {
     display: flex;
     background-color: grey;
@@ -77,29 +81,55 @@ body {
 .post-body {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 300px;
 }
 
 .post-icons {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 80px;
 }
 
 .icons-right {
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 80px;
 }
 
 .icons-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
+    height: 80px;
+    width: 80px;
+}
+
+.icons-left span {
+    font-size: 50px;
+}
+
+.icons-right span {
+    font-size: 50px;
+    margin-left: 50px;
 }
 
 .body-likes {
     margin-bottom: 5px;
-    margin: 10px;
+    margin-left: 20px;
+    margin-top:0px;
+    margin-right: 20px;
 }
 
 .body-description {
-    margin: 10px;
+    margin: 20px;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
